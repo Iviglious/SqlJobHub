@@ -6,10 +6,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SqlJobHub")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("C# app for handling and monitoring SQL jobs.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SqlJobHub")]
+[assembly: AssemblyCompany("Iviglious")]
+[assembly: AssemblyProduct("SQL Job Hub")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
