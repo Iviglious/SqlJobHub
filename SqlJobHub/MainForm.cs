@@ -16,5 +16,19 @@ namespace SqlJobHub
         {
             InitializeComponent();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            for (int i = 1; i <= 3; i++)
+            {
+                for (int b = 1; b <= i*3; b++)
+                {
+
+                }
+                TabPage tp = new TabPage("Env " + i.ToString());
+                //tp.Controls.Add(tpc);
+                CPTabControl.TabPages.Add(tp);
+            }
+        }
     }
 }
